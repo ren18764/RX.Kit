@@ -6,13 +6,13 @@
 //  Copyright © 2016年 Constantine. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "RXMainVC.h"
 
-@interface ViewController ()
+@interface RXMainVC ()
 
 @end
 
-@implementation ViewController
+@implementation RXMainVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
