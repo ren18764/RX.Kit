@@ -6,7 +6,7 @@
 //  Copyright © 2015年 Constantine. All rights reserved.
 //
 
-#import "RXTableViewCell.h"
+#import "RXExtendTableViewCell.h"
 #import "RXCellScrollView.h"
 
 #define BTN_H_SPACE     10
@@ -15,17 +15,17 @@
 
 #define CELL_USERINFO_KEY            @"cellUserInfoKey"
 
-@interface RXTableViewCell () <UIScrollViewDelegate>
+@interface RXExtendTableViewCell () <UIScrollViewDelegate>
 
 @end
 
-@implementation RXTableViewCell
+@implementation RXExtendTableViewCell
 {
     NSArray *_buttonTitles;
     NSArray *_buttonColors;
     CGFloat _contentHeight;
     NSIndexPath *_indexPath;
-    __weak id<RXTableViewCellDelegate> _delegate;
+    __weak id<RXExtendTableViewCellDelegate> _delegate;
     RXCellScrollView *_contentScrollView;
     
     UIView *_btnContentView;
@@ -50,9 +50,11 @@
                 buttonColors:(NSArray *)buttonColors
                contentHeight:(CGFloat)contentHeight
                    indexPath:(NSIndexPath *)indexPath
-                    delegate:(id<RXTableViewCellDelegate>)delegate
+                    delegate:(id<RXExtendTableViewCellDelegate>)delegate
 {
     if(self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]){
+        self.selectionStyle = 
+        
         _buttonTitles = buttonTitles;
         _buttonColors = buttonColors;
         _contentHeight = contentHeight;
@@ -119,7 +121,7 @@
 -(void)btnAction:(UIButton *)sender
 {
     if (_delegate
-        && [_delegate conformsToProtocol:@protocol(RXTableViewCellDelegate)]
+        && [_delegate conformsToProtocol:@protocol(RXExtendTableViewCellDelegate)]
         && [_delegate respondsToSelector:@selector(buttonClicked:indexPath:)]) {
         
         [_delegate buttonClicked:sender.tag indexPath:_indexPath];

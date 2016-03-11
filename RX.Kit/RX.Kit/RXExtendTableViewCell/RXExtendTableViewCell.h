@@ -8,13 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol RXTableViewCellDelegate <NSObject>
+@protocol RXExtendTableViewCellDelegate <NSObject>
 
 -(void)buttonClicked:(NSInteger)tag indexPath:(NSIndexPath *)indexPath;
 
 @end
 
-@interface RXTableViewCell : UITableViewCell
+/**
+ 使用时，子控件必须 addSubView 到 contentView 上，控件才能正常工作.
+ 如需自定义cell，则继承该类即可。
+ */
+@interface RXExtendTableViewCell : UITableViewCell
 
 /**
  *  UITableViewCell 扩展，支持侧滑后显示多个按钮。
@@ -34,5 +38,5 @@
                 buttonColors:(NSArray *)buttonColors
                contentHeight:(CGFloat)contentHeight
                    indexPath:(NSIndexPath *)indexPath
-                    delegate:(id<RXTableViewCellDelegate>)delegate;
+                    delegate:(id<RXExtendTableViewCellDelegate>)delegate;
 @end

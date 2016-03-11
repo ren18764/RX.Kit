@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD0A569C1C910549009CFEB6 /* RXTableViewCellDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A569B1C910549009CFEB6 /* RXTableViewCellDemoVC.m */; };
+		AD0A569F1C910D60009CFEB6 /* RXBackSpaceTextFiledDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A569E1C910D60009CFEB6 /* RXBackSpaceTextFiledDemoVC.m */; };
 		AD0DBEA71C8E71870094B2A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0DBEA61C8E71870094B2A7 /* main.m */; };
 		AD0DBEAA1C8E71870094B2A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0DBEA91C8E71870094B2A7 /* AppDelegate.m */; };
 		AD0DBEAD1C8E71870094B2A7 /* RXMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0DBEAC1C8E71870094B2A7 /* RXMainVC.m */; };
 		AD0DBEB21C8E71870094B2A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0DBEB11C8E71870094B2A7 /* Assets.xcassets */; };
 		AD0DBEE21C8E75DD0094B2A7 /* RXCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0DBEDF1C8E75DD0094B2A7 /* RXCellScrollView.m */; };
-		AD0DBEE31C8E75DD0094B2A7 /* RXTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0DBEE11C8E75DD0094B2A7 /* RXTableViewCell.m */; };
+		AD0DBEE31C8E75DD0094B2A7 /* RXExtendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0DBEE11C8E75DD0094B2A7 /* RXExtendTableViewCell.m */; };
 		AD0DBEE71C8E78980094B2A7 /* RXBackSpaceTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0DBEE61C8E78980094B2A7 /* RXBackSpaceTextField.m */; };
 		AD0DBEEB1C8E78A30094B2A7 /* RXBreadCrumbNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0DBEEA1C8E78A30094B2A7 /* RXBreadCrumbNavigation.m */; };
 		AD0DBEEF1C8E78AC0094B2A7 /* RXGlobalActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0DBEEE1C8E78AC0094B2A7 /* RXGlobalActionSheet.m */; };
+		AD0DBEFA1C8E7EFA0094B2A7 /* RXImageAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0DBEF31C8E7EFA0094B2A7 /* RXImageAssetCell.m */; };
+		AD0DBEFB1C8E7EFA0094B2A7 /* RXImageAssetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0DBEF51C8E7EFA0094B2A7 /* RXImageAssetVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD0A569A1C910549009CFEB6 /* RXTableViewCellDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXTableViewCellDemoVC.h; sourceTree = "<group>"; };
+		AD0A569B1C910549009CFEB6 /* RXTableViewCellDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXTableViewCellDemoVC.m; sourceTree = "<group>"; };
+		AD0A569D1C910D60009CFEB6 /* RXBackSpaceTextFiledDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXBackSpaceTextFiledDemoVC.h; sourceTree = "<group>"; };
+		AD0A569E1C910D60009CFEB6 /* RXBackSpaceTextFiledDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXBackSpaceTextFiledDemoVC.m; sourceTree = "<group>"; };
 		AD0DBEA21C8E71870094B2A7 /* RX.Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RX.Kit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0DBEA61C8E71870094B2A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD0DBEA81C8E71870094B2A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,8 +37,8 @@
 		AD0DBEB61C8E71870094B2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD0DBEDE1C8E75DD0094B2A7 /* RXCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXCellScrollView.h; sourceTree = "<group>"; };
 		AD0DBEDF1C8E75DD0094B2A7 /* RXCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXCellScrollView.m; sourceTree = "<group>"; };
-		AD0DBEE01C8E75DD0094B2A7 /* RXTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXTableViewCell.h; sourceTree = "<group>"; };
-		AD0DBEE11C8E75DD0094B2A7 /* RXTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXTableViewCell.m; sourceTree = "<group>"; };
+		AD0DBEE01C8E75DD0094B2A7 /* RXExtendTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXExtendTableViewCell.h; sourceTree = "<group>"; };
+		AD0DBEE11C8E75DD0094B2A7 /* RXExtendTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXExtendTableViewCell.m; sourceTree = "<group>"; };
 		AD0DBEE51C8E78980094B2A7 /* RXBackSpaceTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXBackSpaceTextField.h; sourceTree = "<group>"; };
 		AD0DBEE61C8E78980094B2A7 /* RXBackSpaceTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXBackSpaceTextField.m; sourceTree = "<group>"; };
 		AD0DBEE91C8E78A30094B2A7 /* RXBreadCrumbNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXBreadCrumbNavigation.h; sourceTree = "<group>"; };
@@ -38,6 +46,10 @@
 		AD0DBEED1C8E78AC0094B2A7 /* RXGlobalActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXGlobalActionSheet.h; sourceTree = "<group>"; };
 		AD0DBEEE1C8E78AC0094B2A7 /* RXGlobalActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXGlobalActionSheet.m; sourceTree = "<group>"; };
 		AD0DBEF01C8E7D860094B2A7 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		AD0DBEF21C8E7EFA0094B2A7 /* RXImageAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXImageAssetCell.h; sourceTree = "<group>"; };
+		AD0DBEF31C8E7EFA0094B2A7 /* RXImageAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXImageAssetCell.m; sourceTree = "<group>"; };
+		AD0DBEF41C8E7EFA0094B2A7 /* RXImageAssetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXImageAssetVC.h; sourceTree = "<group>"; };
+		AD0DBEF51C8E7EFA0094B2A7 /* RXImageAssetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXImageAssetVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,7 @@
 				AD0DBEA91C8E71870094B2A7 /* AppDelegate.m */,
 				AD0DBEAB1C8E71870094B2A7 /* RXMainVC.h */,
 				AD0DBEAC1C8E71870094B2A7 /* RXMainVC.m */,
+				AD0DBEF11C8E7EFA0094B2A7 /* RXImageBrowser */,
 				AD0DBEEC1C8E78AC0094B2A7 /* RXGlobalActionSheet */,
 				AD0DBEE81C8E78A30094B2A7 /* RXBreadCrumbNavigation */,
 				AD0DBEE41C8E78980094B2A7 /* RXBackSpaceTextField */,
@@ -99,8 +112,10 @@
 			children = (
 				AD0DBEDE1C8E75DD0094B2A7 /* RXCellScrollView.h */,
 				AD0DBEDF1C8E75DD0094B2A7 /* RXCellScrollView.m */,
-				AD0DBEE01C8E75DD0094B2A7 /* RXTableViewCell.h */,
-				AD0DBEE11C8E75DD0094B2A7 /* RXTableViewCell.m */,
+				AD0DBEE01C8E75DD0094B2A7 /* RXExtendTableViewCell.h */,
+				AD0DBEE11C8E75DD0094B2A7 /* RXExtendTableViewCell.m */,
+				AD0A569A1C910549009CFEB6 /* RXTableViewCellDemoVC.h */,
+				AD0A569B1C910549009CFEB6 /* RXTableViewCellDemoVC.m */,
 			);
 			path = RXExtendTableViewCell;
 			sourceTree = "<group>";
@@ -110,6 +125,8 @@
 			children = (
 				AD0DBEE51C8E78980094B2A7 /* RXBackSpaceTextField.h */,
 				AD0DBEE61C8E78980094B2A7 /* RXBackSpaceTextField.m */,
+				AD0A569D1C910D60009CFEB6 /* RXBackSpaceTextFiledDemoVC.h */,
+				AD0A569E1C910D60009CFEB6 /* RXBackSpaceTextFiledDemoVC.m */,
 			);
 			path = RXBackSpaceTextField;
 			sourceTree = "<group>";
@@ -130,6 +147,17 @@
 				AD0DBEEE1C8E78AC0094B2A7 /* RXGlobalActionSheet.m */,
 			);
 			path = RXGlobalActionSheet;
+			sourceTree = "<group>";
+		};
+		AD0DBEF11C8E7EFA0094B2A7 /* RXImageBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				AD0DBEF21C8E7EFA0094B2A7 /* RXImageAssetCell.h */,
+				AD0DBEF31C8E7EFA0094B2A7 /* RXImageAssetCell.m */,
+				AD0DBEF41C8E7EFA0094B2A7 /* RXImageAssetVC.h */,
+				AD0DBEF51C8E7EFA0094B2A7 /* RXImageAssetVC.m */,
+			);
+			path = RXImageBrowser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,10 +229,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD0DBEAD1C8E71870094B2A7 /* RXMainVC.m in Sources */,
-				AD0DBEE31C8E75DD0094B2A7 /* RXTableViewCell.m in Sources */,
+				AD0A569F1C910D60009CFEB6 /* RXBackSpaceTextFiledDemoVC.m in Sources */,
+				AD0DBEE31C8E75DD0094B2A7 /* RXExtendTableViewCell.m in Sources */,
 				AD0DBEEB1C8E78A30094B2A7 /* RXBreadCrumbNavigation.m in Sources */,
 				AD0DBEE21C8E75DD0094B2A7 /* RXCellScrollView.m in Sources */,
 				AD0DBEAA1C8E71870094B2A7 /* AppDelegate.m in Sources */,
+				AD0DBEFB1C8E7EFA0094B2A7 /* RXImageAssetVC.m in Sources */,
+				AD0A569C1C910549009CFEB6 /* RXTableViewCellDemoVC.m in Sources */,
+				AD0DBEFA1C8E7EFA0094B2A7 /* RXImageAssetCell.m in Sources */,
 				AD0DBEA71C8E71870094B2A7 /* main.m in Sources */,
 				AD0DBEEF1C8E78AC0094B2A7 /* RXGlobalActionSheet.m in Sources */,
 				AD0DBEE71C8E78980094B2A7 /* RXBackSpaceTextField.m in Sources */,
@@ -337,6 +369,7 @@
 				AD0DBEBB1C8E71870094B2A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
